@@ -94,7 +94,7 @@ span {
 }
 
 section {
-  padding: 160px 10% 120px;
+  padding: 82px 10% 67px;
 }
 
 .home {
@@ -221,7 +221,7 @@ section {
   transform: scale(1.1) translateY(5px);
 }
 
-.about {
+.about , .exp {
   display: flex;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -250,6 +250,22 @@ section {
   margin-bottom: 4rem;
   text-align: center;
 }
+
+.about-text ul li {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.about-text ul li .experience-item {
+  text-align: center;
+}
+
+.about-text ul li strong {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 
 /* **** STACK TECH **** */
 .services {
